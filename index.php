@@ -52,10 +52,12 @@ function upOrDown ($timestamp) {
 
 						echo '<div class="pings">';
 
+							$i = 0;
 							foreach ($data as $timestamp) {
+								$i++;
 								$class = 'is-' . upOrDown($timestamp);
-								$newTime = strtotime('-15 minutes');
-								echo '<div class="ping ' . $class . '" title="' . date('Y-m-d H:i:s', $newTime); . '"></div>';
+								$newTime = strtotime('-' . $i . '0 minutes');
+								echo '<div class="ping ' . $class . '" title="' . date('Y-m-d H:i:s', $newTime) . '"></div>';
 							}
 
 						echo '</div>';
