@@ -13,17 +13,18 @@ body {
 
 .wrapper {
 	max-width: 40rem;
- 	width: calc(100% - 5rem);
-  	margin: 0 auto;
-  	border: 1px solid #222;
-  	padding: 2.5rem;
-  	border-radius: 1.5rem;
+	width: calc(100% - 5rem);
+	margin: 0 auto;
+	border: 1px solid #222;
+	padding: 2.5rem;
+	border-radius: 1.5rem;
 }
 
 h2 {
 	margin-top: 0;
 	margin-bottom: 0.75rem;
 	color: white;
+	text-transform: capitalize;
 }
 
 .website {
