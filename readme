@@ -2,3 +2,5 @@
 ▄█  █  █▀█  █  █▄█ ▄█   █▀▀ █▀█ █▄█ █▄▄
 
 Here is a super simple status page that can be hosted on any cheap shared hosting
+
+Add urls to the websites.ini file and then run cronjob.php as often as you'd like
