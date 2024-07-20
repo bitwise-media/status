@@ -2,14 +2,12 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
-
-	height: 100vh;
 	background: black;
 }
 
 svg {
 	max-width: 15rem;
-	margin-bottom: 2.5rem;
+	display: block;
 	margin: 2.5rem auto;
 }
 
